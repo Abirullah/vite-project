@@ -26,9 +26,8 @@ function wather() {
             console.log(response.data);
           })
 
-          .catch((error) => {
-            // handle error
-            console.log(error);
+          .catch(() => {
+            alert('Please enter valid place');
           });
       };
 
