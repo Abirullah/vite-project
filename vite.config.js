@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/wather-app-on-react-.wow.git',
+  base: '/wather-app-with-react',
 })
